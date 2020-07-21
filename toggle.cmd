@@ -1,1 +1,0 @@
-powershell -File "PATH TO bluetooth.ps1 GOES HERE"
