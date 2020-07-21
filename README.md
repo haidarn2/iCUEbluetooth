@@ -10,6 +10,10 @@ These scripts let you toggle bluetooth ON/OFF using a custom action from within 
 
 More info: https://superuser.com/tags/powershell/info
 
-2. Modify the path defined in`toggle.cmd` to an absolute path pointing to `bluetooth.ps1`
-3. Create a "LAUNCH APPLICATION" action from within the iCUE software and point to `toggle.cmd`
-4. Tie the created action to a key / macro
+2. Create a "LAUNCH APPLICATION" action from within the iCUE software and point to `bluetooth.ps1` eg:
+
+`powershell -File "C:\Program Files (x86)\Corsair\CORSAIR iCUE Software\bluetooth\bluetooth.ps1"`
+
+![image](https://user-images.githubusercontent.com/9061803/88001460-32a57780-cace-11ea-9329-56cbfd71dff5.png)
+
+3. Tie the created action to a key / macro
